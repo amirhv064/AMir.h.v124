@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--===== CSS =====-->
+        <link href="../images/chat_icon.png" rel="icon" type="image/png" sizes="80x80">
+        <link rel="stylesheet" href="../css/student.css">
+        <link rel="stylesheet" href="../css/student1.css">
+        
+
+        <title>university chat(student)</title>
+    </head>
+    <body>
+        <div class="l-form">
+            <form action="http://localhost/develop/backend/php/std_post.php" method="post" class="form">
+                <h1 class="form__title">student login</h1>
+
+                <div class="form__div">
+                    <input type="text" name="std_name" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">student name</label>
+                </div>
+
+                <div class="form__div">
+                    <input type="text" name="course" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">corse</label>
+                </div>
+
+                <div id="num" class="form__div">
+                    <input type="number" name="std_num" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">student number</label>
+                </div>
+
+                <div class="form__div">
+                    <select id="select" name="semester" class="form__input">
+                        <option class="form__option" value="bachelor">bachelor</option>
+                        <option class="form__option" value="master">master</option>
+                        <option class="form__option" value="phd">phd</option>
+                    </select>
+                    <label for="select" class="form__label">semester</label>
+                </div>
+                <a class="form__a" href="professor.html">are you professor?</a>
+                <input type="submit" class="form__button" value="login">
+            </form>
+        </div>
+    </body>
+</html>

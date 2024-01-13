@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--===== CSS =====-->
+        <link href="../images/chat_icon.png" rel="icon" type="image/png" sizes="80x80">
+        <link rel="stylesheet" href="../css/student.css">
+        <link rel="stylesheet" href="../css/student1.css">
+        
+
+        <title>university chat(professors)</title>
+    </head>
+    <body>
+        <div class="l-form">
+            <form action="http://localhost/develop/backend/php/pfs_post.php" method="post" class="form">
+                <h1 class="form__title">professors login</h1>
+
+                <div class="form__div">
+                    <input type="text" name="pfs_name" class="form__input" placeholder="" required>
+                    <label for="" class="form__label">name</label>
+                </div>
+
+                <div class="form__div">
+                    <input type="text" name="course" class="form__input" placeholder="" required>
+                    <label for="" class="form__label">course</label>
+                </div>
+
+                <div class="form__div">
+                    <input type="number" name="id" class="form__input" placeholder=" " required>
+                    <label for="" class="form__label">id</label>
+                </div>
+                <a href="student.html">are you student?</a>
+                <input type="submit" class="form__button" value="Sign In">
+
+            </form>
+        </div>
+    </body>
+</html>
